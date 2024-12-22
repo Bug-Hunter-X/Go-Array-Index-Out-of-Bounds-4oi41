@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Go: exceeding the bounds of an array. The `bug.go` file contains the erroneous code, while `bugSolution.go` provides a corrected version.  The error is a runtime panic caused by attempting to assign values to array indices that do not exist.  The solution involves careful checking of array indices to prevent this from happening.
